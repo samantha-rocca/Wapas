@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Wapas</title>
+    <link rel="icon" type="image/png" href="images/2850862_document_file_html_page_paper_icon.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--HEADER: Debe ser igual en todas las paginas de mi proyecto-->
+    <header> 
+        <img id="logo"src="images/logo (4).png" alt="logo de la empresa" title="Logo WWWAPAS">
+        <nav id="nav_principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto"> Contacto</a>
+            <a href="#Login">Login</a>
+        </nav>
+    </header>
+    <div class="div_float"></div>
+    <div id="contenedor_main">
+        <main>
+            <section id="inicio">
+                <div id="div_inicio">
+                    <h1>somos <strong class ="nombre_empresa">wwwapas</strong></h1>
+                    <h2>social media managers | creadoras de contenido</h2>
+                    <p>Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio. <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong></p>
+                </div>
+            
+                <img id="foto_wapas" src="images/foto (1).JPG" alt="Imagen de las social media managers wapas" title="Foto de WWWAPAS">    
+            </section>
+            
+            <div class="div_float"></div>
+        
+            <section id="seccion2">
+                <h2>¡Hola! Somos SOFI & JULIA,</h2>
+                <p>las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu marca. <strong>¡Somos el complemento que necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p>
+            </section>
+            
+            <section id="seccion3">
+                <h2>GESTIONAMOS TUS REDES SOCIALES</h2>
+                <p>La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla cuanto antes y aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto. <strong>¡Aumentá tu presencia digital y generá nuevas ventas y contactos!</strong></p>
+            </section>
+            <div class="div_float"></div>
+
+            <hr>
+            <section id="servicios">
+                <img id="foto_servicios" src="images/img-servicios (1).png" alt="Imagen con logo de wapas acompañada de dibujos de dinero, correo electrónico, internet y simbolos relacionados" title="Foto servicios WWWAPAS">
+                <div id="div_servicios">
+                <h2>Servicios</h2>
+                <ol>
+                    <li>Análisis de perfil (Benchmarking).</li>
+                    <li>Revisión y activación de canales.</li>
+                    <li>Gestión, creación y diseño de contenido.</li>
+                    <li>Repuestas a mensajes y consultas.</li>
+                    <li>Segmentación de promociones según el público objetivo de la pauta publicitaria.</li>
+                    <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa.</li>
+                    <li><strong>¡Empezamos a comunicar!</strong></li>
+                </ol>
+                </div>
+            </section>
+
+            <div class="div_float"></div>
+            <hr id="hr_contacto">
+            
+            <section id="contacto">
+                <div id="div_contacto">
+                    <h3>¿Quéres que nos</h3>
+                    <h3> contactemos con vos?</h3>
+                    <p>Envianos tu consulta >></p>
+                </div>
+                
+                <form action="https://formspree.io/f/movdzzaa" method="post">
+                    <label for="nombre">Nombre<span>*</span></label><br>
+                    <input type="text" pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ ]{2,50}$" title="Solo letras y espacios, entre 2 y 50 caracteres" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br>
+                    
+                    <label for="email">Email principal y de referencia<span>*</span></label><br>
+                    <input type="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" title="El correo debe terminar en un dominio válido como .com, .net, .org, etc."  name="email" id="email" placeholder="Ej: info@dominio.com" multiple required><br>
+                    
+                    <label for="mensaje">Mensaje<span>*</span></label><br>
+                    <textarea name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" required></textarea><br>
+
+                <button type="submit">Enviar consulta</button>
+                <button type="reset">Borrar</button>
+                </form>
+            </section>
+            <div class="div_float"></div>
+        </main>
+
+        <!--FOOTER: Debe ser igual en todas las paginas de mi proyecto  -->
+        <footer>
+            <nav>
+                <span id="span-nav-footer">redes wwwapas</span>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img_nav_footer" src="images/instagram-icon (2).png" alt="logo de instagram que lleva al instagram de wwwapas" title="Instagram de WWWAPAS">
+                </a>
+                <a href="https://dribbble.com/" rel="noopener noreferrer" target="_blank">
+                    <img class="img_nav_footer" src="images/dribbble-icon (1).png" alt="logo de dribbble que lleva al dribble de wwwapas" title="Dribbble de WWWAPAS">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img_nav_footer" src="images/linkedin-icon (5).png" alt="logo de linkedin que lleva al linkedin de wwwapas" title="Linkedin de WWWAPAS">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="img_nav_footer" src="images/facebook-icon (1).png" alt="logo de facebook que lleva al facebook de wwwapas" title="Facebook de WWWAPAS">
+                </a>
+            </nav>
+            <div id="div_footer">
+                <h1>wwwapas</h1>
+                <a id="vinculo_footer" href="mailto: wwwapas_sm@gmail.com">wwwapas_sm@gmail.com</a>
+                <span id="span_footer">&copy; Copyright_Wapas</span>
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>

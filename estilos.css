@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.nombre_empresa{
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#foto_wapas{
+  width: 687.79px;
+  height: 549.45px;
+}
+
+#foto_servicios{
+  width:552px;
+  height:537px;
+}
+
+.img_nav_footer{
+  width:117.51px;
+  Height:106.14px;  
+}
+
+#nav_principal a {
+  text-decoration: none;
+  color: #333;;
+
+}
+
+.div_float{
+  clear: both;
+}
+
+#nav_principal{
+  float: right;
+  margin-bottom: 2%;
+}
+header h1{
+  float: left;
+}
+
+#div_inicio{
+  float: left;
+  width: 34vw;
+}
+#foto_wapas{
+  float: right
+}
+
+#seccion2{
+  width: 40vw;
+  float: left;
+  
+}
+#seccion3{
+  width: 40vw;
+  float: right;
+  
+}
+
+#div_servicios{
+  float: right;
+}
+#foto_servicios{
+  float: left;
+}
+
+#contenedor_main{
+  padding: 74.74px;
+}
+
+#div_contacto{
+  float: left;
+}
+form{
+  float:right;
+}
+
+#div_footer h1{
+  display: inline-block;
+}
+
+
+#nav_principal {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#nav_principal a{
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-right: 2%;
+  
+}
+
+#logo{
+  width: 240.79px;
+  height: 56.19px;
+}
+
+#div_inicio h1{
+  font-size: 48px;
+  font-family: 'Inter',sans-serif;
+  font-weight: 400;
+  width: 20vw;
+  
+
+}
+
+#div_inicio h1 strong{
+  font-size: 88.28px;
+  font-family: 'Coiny',sans-serif;
+  font-weight: 400;
+
+}
+#div_inicio h2{
+  font-size: 20px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  background-color: #FCEE21;
+  width: 80%;
+  margin-bottom: 15%;
+
+}
+#div_inicio p{
+  font-size: 24px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  width: 80%;
+
+}
+
+#seccion2 h2{
+  width: 28vw;
+}
+#seccion2 h2,#seccion3 h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size:26.42px;
+  background-color: #FCEE21;
+  margin-top: 8%;
+}
+
+#seccion2 p,#seccion3 p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size:22px;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  
+}
+
+hr{
+  margin-bottom: 10%;
+  color: hsl(0, 0%, 59%);
+  size: 3px;
+}
+#div_servicios{
+  width: 39vw;
+}
+
+#servicios h2{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 40.86px;
+}
+
+#servicios ol li {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top:5.5%;
+}
+
+#servicios ol li:last-child{
+  background-color: #FCEE21;
+  width: 33vw;
+}
+
+#hr_contacto{
+  margin-top: 6%;
+}
+
+#div_contacto h3{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 50.58px;
+  background-color: black;
+  color: white;
+  margin-bottom: 3%;
+  width:35vw;
+} 
+
+#div_contacto p{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  width: 40vw;
+  background-color: #FCEE21;
+  color: black;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 25vw;
+
+}
+form{
+  width: 35vw;
+ 
+}
+
+label{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 20px;
+}
+label span{
+  color: hsl(358, 66%, 45%);
+}
+
+form input {
+  width: 535.29px;
+  height:55.38px;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+form textarea{
+  width: 535.29px;
+  height:175.03px;
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+
+button[type="submit"]{
+  width: 281.51px;
+  height: 51.51px;
+  margin-right: 9%;
+  
+
+}
+button[type="reset"]{
+  width: 147.11px;
+  height: 51.51px;
+  
+
+}
+button{
+  background-color: black;
+  color:white;
+  font-family: 'Roboto',sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+footer nav{
+  width: 960.84px;
+  
+}
+
+footer{
+  margin-top: 10%;
+  
+}
+
+#span-nav-footer{
+  color: #808080;
+  font-size: 25.84px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  width: 134.66px;
+  vertical-align:top;
+}
+
+footer nav{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10%;
+
+}
+footer{
+  width: 90vw;
+}
+
+#div_footer{
+
+  font-family:'Coiny',sans-serif;
+  font-weight:400;
+  font-size: 25.84px;
+  height: 103.14px;
+  
+ 
+}
+#div_footer a{
+  text-decoration: none;
+  color: black;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+body{
+  background-color:#f2f2f2;
+}
+/*mix-blend-mode: multiply;:
+Esta propiedad puede ser útil para fusionar el fondo de una imagen con el fondo del elemento principal, lo que puede crear efectos de transparencia en algunos casos. */
+#foto_wapas{
+  mix-blend-mode: multiply;
+  color: hsl(0, 0%, 95%);
+  pointer-events: none;
+}
+
+input, textarea{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  padding: 2%;
+}
+
+#nav_principal a{
+  padding: 1.5%;
+  border-bottom:4px solid transparent;
+}
+
+#nav_principal a:hover{
+  border-color: black;
+  
+}
+
+
+#servicios ol{
+  padding:4%;
+  padding-top: 2%;
+}
+body{
+  padding-top: 0;
+}
+/*position sticky: permite el scroll de un elemento hijo dentro de un elemento padre, este último debe tener el espacio suficiente*/
+header{
+  background-color:#DD5524;
+  padding-top: 1%;
+  top:1px;
+  position: sticky;
+  z-index: 100;
+  
+}
+
+#nav_principal a {
+  color: #f2f2f2;
+}
+
+#logo{
+  margin-left: 0.5vw;
+}
+
+#mensaje{
+  resize: none;
+}
+
+
+
+
+
+
+
